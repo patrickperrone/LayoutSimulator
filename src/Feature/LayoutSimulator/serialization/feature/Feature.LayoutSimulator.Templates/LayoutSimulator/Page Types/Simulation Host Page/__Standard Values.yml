@@ -1,17 +1,22 @@
 ﻿---
-ID: 8e229641-ab86-44e0-b0aa-163d2431b8d2
-Parent: b3e0e945-bc46-4f59-b397-a97abb5a683f
-Template: b3e0e945-bc46-4f59-b397-a97abb5a683f
+ID: "8e229641-ab86-44e0-b0aa-163d2431b8d2"
+Parent: "b3e0e945-bc46-4f59-b397-a97abb5a683f"
+Template: "b3e0e945-bc46-4f59-b397-a97abb5a683f"
 Path: /sitecore/templates/Feature/LayoutSimulator/Page Types/Simulation Host Page/__Standard Values
 DB: master
 SharedFields:
-- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout
   Value: |
     <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{03547A29-7056-4278-94A3-3EB5BE765660}">
-        <r id="{484DDF91-FCF6-47DB-B96F-8D6B1B8B667B}" ph="main" uid="{D38C8F63-5305-4167-9C13-B32093FA7232}" />
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{03547A29-7056-4278-94A3-3EB5BE765660}">
+        <r
+          id="{484DDF91-FCF6-47DB-B96F-8D6B1B8B667B}"
+          ph="main"
+          uid="{D38C8F63-5305-4167-9C13-B32093FA7232}" />
       </d>
     </r>
 Languages:
@@ -19,9 +24,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160315T185334Z
-    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\admin
