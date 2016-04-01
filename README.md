@@ -14,7 +14,7 @@ it is easy to script browser-based functional tests using Layout Simulator.
 The easiest way to get started is to experiment with an existing page's layout defintion. In Content Editor, simply
 navigate to a page and click on the **Get Layout** button in the Presentation tab.
 
-(image here)
+![ribbon-button]
 
 Modify the layout definition xml as you see fit and click the **Simulate Layout!** button.
 
@@ -75,3 +75,5 @@ setting
 - I've developed and tested against Sitecore 8.1. Sitecore 7.5 and 
 8.0 should also work. Earlier versions will be an exercize in trial and error. ;)
 
+
+[ribbon-button]: https://github.com/patrickperrone/LayoutSimulator/blob/master/get-layout-button.png "Get Layout button"
