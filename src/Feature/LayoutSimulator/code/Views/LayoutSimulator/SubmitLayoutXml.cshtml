@@ -1,0 +1,58 @@
+﻿@model Sitecore.Feature.LayoutSimulator.Models.FormModel
+
+<div class="form-container">
+    @using (Html.BeginForm())
+    {
+        <div class="field-label">Host Page Url:</div>
+        @Html.TextBoxFor(m => m.HostPageUrl, new { Class = "form-field" })
+        <div class="field-label">Enter LayoutXml:</div>
+        <textarea id="taRawLayoutXml" class="form-field" cols="20" rows="30"></textarea>
+        <br />
+        <input id="btnSubmit" type="submit" value="Simulate Layout!" onclick="CopyEncodedTextTo('taRawLayoutXml', 'EncodedLayoutXml');" />
+        <br />
+        <input type="hidden" name="hfController" value="LayoutBuilderController" />
+        <input type="hidden" name="hfAction" value="Index" />
+        @Html.HiddenFor(m => m.EncodedLayoutXml)
+        @Html.ValidationMessageFor(m => m.LayoutXml)
+    }
+</div>
+<script>
+    function EncodeGreaterAndLessThan(text)
+    {
+        var find = '<';
+        var re = new RegExp(find, 'g');
+        text = text.replace(re, '&lt;');
+
+        find = '>';
+        re = new RegExp(find, 'g');
+        return text.replace(re, '&gt;');
+    }
+
+    function DecodeAmpersands(text)
+    {
+        var find = '&';
+        var re = new RegExp(find, 'g');
+        return text = text.replace(re, '&amp;');
+    }
+
+    function CopyEncodedTextTo(sourceId, destinationId)
+    {
+        var encodedText = EncodeGreaterAndLessThan(document.getElementById(sourceId).value);
+        document.getElementById(destinationId).value = encodedText;
+    }
+
+    function CopyDecodedTextTo(sourceId, destinationId)
+    {
+        var rawText = document.getElementById(sourceId).value;
+        if (rawText)
+        {
+            var encodedText = DecodeAmpersands(rawText);
+            document.getElementById(destinationId).value = encodedText;
+        }
+    }
+
+    window.onload = function ()
+    {
+        CopyDecodedTextTo('EncodedLayoutXml', 'taRawLayoutXml');
+    };
+</script>

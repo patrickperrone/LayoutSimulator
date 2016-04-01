@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{045EB6E1-0BE0-432A-BF4D-AD3DDDDB6544}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		gulp-config.js = gulp-config.js
+		gulpfile-ci.js = gulpfile-ci.js
+		gulpfile.js = gulpfile.js
+		package.json = package.json
+		package.xml = package.xml
+		publishsettings.targets = publishsettings.targets
+		src\Feature\LayoutSimulator\code\App_Config\Include\Feature\z.LayoutSimulator.DevSettings.config = src\Feature\LayoutSimulator\code\App_Config\Include\Feature\z.LayoutSimulator.DevSettings.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{2F685C7E-35C4-4E9E-B132-494624475338}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LayoutSimulator", "LayoutSimulator", "{48966FAB-6C06-4050-A399-56CE87DBE8FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Feature.LayoutSimulator", "src\Feature\LayoutSimulator\code\Sitecore.Feature.LayoutSimulator.csproj", "{B72CA8C3-05ED-45A8-B167-6606815B4480}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Feature.LayoutSimulator.Tests", "src\Feature\LayoutSimulator\tests\Sitecore.Feature.LayoutSimulator.Tests.csproj", "{E1120E19-741C-4412-AC4B-DF5270411D70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B72CA8C3-05ED-45A8-B167-6606815B4480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B72CA8C3-05ED-45A8-B167-6606815B4480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B72CA8C3-05ED-45A8-B167-6606815B4480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B72CA8C3-05ED-45A8-B167-6606815B4480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1120E19-741C-4412-AC4B-DF5270411D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1120E19-741C-4412-AC4B-DF5270411D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1120E19-741C-4412-AC4B-DF5270411D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1120E19-741C-4412-AC4B-DF5270411D70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{48966FAB-6C06-4050-A399-56CE87DBE8FB} = {2F685C7E-35C4-4E9E-B132-494624475338}
+		{B72CA8C3-05ED-45A8-B167-6606815B4480} = {48966FAB-6C06-4050-A399-56CE87DBE8FB}
+		{E1120E19-741C-4412-AC4B-DF5270411D70} = {48966FAB-6C06-4050-A399-56CE87DBE8FB}
+	EndGlobalSection
+EndGlobal
