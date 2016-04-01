@@ -11,8 +11,19 @@ assembled page as if the page actually existed in Sitecore. Since Layout Simulat
 it is easy to script browser-based functional tests using Layout Simulator.
 
 ### Great, How Can I Get Started?
-The easiest way to get started is to experiment with an existing page's layout defintion. In Content Editor, simply
-navigate to a page and click on the **Get Layout** button in the Presentation tab.
+For a fast demonstration, after you install Layout Simulator browse to ```/SimulationBuilder``` and enter the
+following layout xml:
+```
+<r xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">
+<d id=\"{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}\" l=\"{03547A29-7056-4278-94A3-3EB5BE765660}\">
+<r id=\"{C35D86EE-3DF1-48D0-84C0-2385DEF0C909}\" ph=\"main\" uid=\"{D38C8F63-5305-4167-9C13-B32093FA7232}\" />
+</d></r>
+``` 
+Click enter and see the double rainbow. What does it MEAN!? :)
+
+The easiest way to start experiment with your own solutions renderings is to get the layout of an existing page's 
+layout defintion. In Content Editor, simply navigate to a page and click on the **Get Layout** button in the 
+Presentation tab.
 
 ![ribbon-button]
 
@@ -37,12 +48,10 @@ Content-Type: application/json
 Cache-Control: no-cache
 
 {
-    "LayoutToSimulate" : "&lt;r xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"&gt;
-&lt;d id=\"{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}\" l=\"{03547A29-7056-4278-94A3-3EB5BE765660}\"&gt;
-&lt;r id=\"{484DDF91-FCF6-47DB-B96F-8D6B1B8B667B}\" ph=\"main\" uid=\"{D38C8F63-5305-4167-9C13-B32093FA7232}\" /&gt;
-&lt;r id=\"{484DDF91-FCF6-47DB-B96F-8D6B1B8B667B}\" ph=\"main\" uid=\"{D38C8F63-5305-4167-9C13-B32093FA7232}\" /&gt;
-&lt;r id=\"{484DDF91-FCF6-47DB-B96F-8D6B1B8B667B}\" ph=\"main\" uid=\"{D38C8F63-5305-4167-9C13-B32093FA7232}\" /&gt;
-&lt;/d&gt;&lt;/r&gt;"
+    "LayoutToSimulate" : "<r xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">
+<d id=\"{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}\" l=\"{03547A29-7056-4278-94A3-3EB5BE765660}\">
+<r id=\"{C35D86EE-3DF1-48D0-84C0-2385DEF0C909}\" ph=\"main\" uid=\"{D38C8F63-5305-4167-9C13-B32093FA7232}\" />
+</d></r>"
 }
 ```
 <br />

@@ -1,11 +1,11 @@
 ﻿---
-ID: 03547a29-7056-4278-94a3-3eb5be765660
-Parent: 392beaa7-9de5-44bb-bed2-5fe40826cfa0
-Template: 3a45a723-64ee-4919-9d41-02fd40fd1466
+ID: "03547a29-7056-4278-94a3-3eb5be765660"
+Parent: "392beaa7-9de5-44bb-bed2-5fe40826cfa0"
+Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
 Path: /sitecore/layout/Layouts/Feature/LayoutSimulator/BlankLayout
 DB: master
 SharedFields:
-- ID: a036b2bc-ba04-44f6-a75f-bae6cd242abf
+- ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
   Hint: Path
   Value: /Views/LayoutSimulator/BlankLayout.cshtml
 Languages:
@@ -13,9 +13,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160315T185143Z
-    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\admin

@@ -168,10 +168,12 @@
     </Content>
     <Content Include="App_Config\Include\Feature\z.LayoutSimulator.DevSettings.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
+    <Content Include="Assets\LayoutSimulator\double-rainbow.jpg" />
     <Content Include="Views\LayoutSimulator\BlankLayout.cshtml" />
     <Content Include="Assets\LayoutSimulator\simulator.css" />
     <Content Include="Assets\LayoutSimulator\spinner.gif" />
     <Content Include="Views\LayoutSimulator\SubmitLayoutXml.cshtml" />
+    <Content Include="Views\LayoutSimulator\Demo.cshtml" />
     <None Include="Views\Web.config" />
     <Content Include="Views\LayoutSimulator\PostToService.cshtml" />
     <Content Include="Views\LayoutSimulator\NoSimulationMessage.cshtml" />

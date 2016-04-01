@@ -1,13 +1,13 @@
 ﻿---
-ID: "484ddf91-fcf6-47db-b96f-8d6b1b8b667b"
+ID: "c35d86ee-3df1-48d0-84c0-2385def0c909"
 Parent: "86ed6281-5194-48d0-8839-ba8f4546648b"
 Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
-Path: /sitecore/layout/Renderings/Feature/LayoutSimulator/NoSimulationMessage
+Path: /sitecore/layout/Renderings/Feature/LayoutSimulator/Demo
 DB: master
 SharedFields:
 - ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
   Hint: Path
-  Value: /Views/LayoutSimulator/NoSimulationMessage.cshtml
+  Value: /Views/LayoutSimulator/Demo.cshtml
 Languages:
 - Language: en
   Versions:
@@ -15,4 +15,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20160331T163121Z
+      Value: 20160401T182743Z
