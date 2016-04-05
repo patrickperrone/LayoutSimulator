@@ -195,6 +195,8 @@
     <Compile Include="Configuration\Constants.cs" />
     <Compile Include="Controllers\LayoutBuilderController.cs" />
     <Compile Include="Data\SimulatedLayout.cs" />
+    <Compile Include="Extensions\HtmlHelperExtensions.cs" />
+    <Compile Include="HtmlHelpers\CustomSitecoreHelper.cs" />
     <Compile Include="Models\SimulateRequest.cs" />
     <Compile Include="Data\SimulateResult.cs" />
     <Compile Include="Extensions\ItemExtensions.cs" />
