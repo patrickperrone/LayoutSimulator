@@ -1,8 +1,10 @@
-﻿@model Sitecore.Feature.LayoutSimulator.Models.FormModel
+﻿@using Sitecore.Feature.LayoutSimulator.Extensions
+@model Sitecore.Feature.LayoutSimulator.Models.FormModel
 
 <div class="form-container">
     @using (Html.BeginForm())
     {
+        @Html.LayoutSimulator().FormHandler()
         <div class="field-label">Host Page Url:</div>
         @Html.TextBoxFor(m => m.HostPageUrl, new { Class = "form-field" })
         <div class="field-label">Enter LayoutXml:</div>
@@ -10,8 +12,6 @@
         <br />
         <input id="btnSubmit" type="submit" value="Simulate Layout!" onclick="CopyEncodedTextTo('taRawLayoutXml', 'EncodedLayoutXml');" />
         <br />
-        <input type="hidden" name="hfController" value="LayoutBuilderController" />
-        <input type="hidden" name="hfAction" value="Index" />
         @Html.HiddenFor(m => m.EncodedLayoutXml)
         @Html.ValidationMessageFor(m => m.LayoutXml)
     }
