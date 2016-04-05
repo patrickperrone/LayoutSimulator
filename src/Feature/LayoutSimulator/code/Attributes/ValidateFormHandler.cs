@@ -16,7 +16,7 @@ namespace Sitecore.Feature.LayoutSimulator.Attributes
 
             return !string.IsNullOrWhiteSpace(controller)
                     && !string.IsNullOrWhiteSpace(action)
-                    && controller == controllerContext.Controller.GetType().Name
+                    && controller == controllerContext.Controller.GetType().FullName
                     && action == methodInfo.Name;
         }
     }
