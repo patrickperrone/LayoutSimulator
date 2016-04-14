@@ -89,9 +89,9 @@ namespace Sitecore.Feature.LayoutSimulator.Tests.Configuration
             });
             Item settingsItem = db.GetItem(settingsID);
 
-            provider = Substitute.For<Sitecore.Links.LinkProvider>();
+            provider = Substitute.For<LinkProvider>();
             provider
-                .GetItemUrl(hostPage, Arg.Is<Sitecore.Links.UrlOptions>(x => x.AlwaysIncludeServerUrl))
+                .GetItemUrl(hostPage, Arg.Is<UrlOptions>(x => x.AlwaysIncludeServerUrl))
                 .Returns(expectedUrl);
 
             using (new FakeDb.Links.LinkProviderSwitcher(provider))
