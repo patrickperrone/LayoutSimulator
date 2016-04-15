@@ -6,7 +6,6 @@ using Sitecore.Feature.LayoutSimulator.Attributes;
 
 namespace Sitecore.Feature.LayoutSimulator.Controllers
 {
-    //TODO: add a host page url field to form
     public class LayoutBuilderController : Controller
     {
         string ItemLayoutFromSession
