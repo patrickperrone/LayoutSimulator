@@ -46,7 +46,7 @@ namespace Sitecore.Feature.LayoutSimulator
             string url = AddIdToQueryString(_simulatedLayout.HostPageUrl, simulatedLayoutId);
 
             // NOTE: cannot use Session to pass objects in memory since pipeline processors 
-            // execute as a different user the current user.
+            // execute as a different user than the current user.
            
             // Add layout definition object to custom Sitecore cache
             CacheManager cm = new CacheManager();
