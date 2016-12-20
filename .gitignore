@@ -24,3 +24,4 @@ temp/
 *.ncrunchproject
 *.ncrunchsolution
 .vscode
+src\Feature\LayoutSimulator\tests\license.xml
