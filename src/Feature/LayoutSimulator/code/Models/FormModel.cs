@@ -18,7 +18,7 @@ namespace Sitecore.Feature.LayoutSimulator.Models
         {
             get
             {
-                return $"/{Settings.RoutePrefix}/simulate";
+                return $"{Settings.ServiceRoutePrefix}/1/simulate";
             }
         }
 

@@ -36,9 +36,9 @@ namespace Sitecore.Feature.LayoutSimulator.Pipelines.Response.BuildSimulatedLayo
             var parameters = HttpUtility.ParseQueryString(HttpContext.Current.Request.QueryString.ToString());
             CacheManager cm = new CacheManager();
             string cacheKey = cm.GetCacheKey(parameters[Configuration.Settings.QueryStringKey]);
-            SimulatedLayout cacheValue = CacheManager.cache.GetCacheValue(cacheKey) as SimulatedLayout;
+			SimulatedLayout cacheValue = CacheManager.cache.GetCacheValue(cacheKey) as SimulatedLayout;
 
-            if (cacheValue == null)
+			if (cacheValue == null)
             {
                 Log.Error($"Failed to find SimulatedLayout object in cache with cacheKey [{cacheKey}]".ToStringForLogging(), this);
             }
