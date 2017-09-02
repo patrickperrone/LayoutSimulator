@@ -16,8 +16,8 @@ module.exports.config = config;
 gulp.task("01-Copy-Sitecore-Lib", function () {
   console.log("Copying Sitecore Libraries");
   var files = config.sitecoreLibraries + "/**/*";
-  gulp.src(files)
-    .pipe(gulp.dest("./lib/Sitecore"));
+	gulp.src(files)
+		.pipe(gulp.dest(config.sitecoreLibDestination));
 });
 
 gulp.task("02-Publish-All-Projects", function (callback) {

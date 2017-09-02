@@ -12,6 +12,8 @@ artifacts/
 *DS_Store
 *.sln.ide
 lib/Sitecore/*
+lib/sitecore81x/*
+lib/sitecore82x/*
 !lib/Sitecore/readme.MD
 lib/System/*
 !lib/System/readme.MD
