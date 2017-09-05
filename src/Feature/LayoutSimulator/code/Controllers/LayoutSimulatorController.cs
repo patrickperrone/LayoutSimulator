@@ -40,6 +40,9 @@ namespace Sitecore.Feature.LayoutSimulator.Controllers
 
 					if (isValid)
 					{
+						// workaround for Sitecore 8.1 Update-3 and later
+						System.Web.HttpContext.Current.Response.Headers["X-Frame-Options"] = "SAMEORIGIN";
+
 						SimulationManager sm = new SimulationManager(request.HostPageUrl, request.LayoutToSimulate);
 						result = sm.RunSimulation();
 					}
