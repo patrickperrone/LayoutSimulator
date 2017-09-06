@@ -1,0 +1,2152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Choose>
+    <When Condition="$(Configuration.EndsWith('81x'))">
+      <ItemGroup>
+        <!-- Sitecore 8.1 References -->
+        <Reference Include="Antlr3.Runtime">
+          <HintPath>..\..\..\..\lib\sitecore81x\Antlr3.Runtime.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="ComponentArt.Web.UI">
+          <HintPath>..\..\..\..\lib\sitecore81x\ComponentArt.Web.UI.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="CsQuery">
+          <HintPath>..\..\..\..\lib\sitecore81x\CsQuery.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="CustomFields.AccountSelector">
+          <HintPath>..\..\..\..\lib\sitecore81x\CustomFields.AccountSelector.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="DotNetOpenAuth">
+          <HintPath>..\..\..\..\lib\sitecore81x\DotNetOpenAuth.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="EcmaScript.NET">
+          <HintPath>..\..\..\..\lib\sitecore81x\EcmaScript.NET.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Facebook">
+          <HintPath>..\..\..\..\lib\sitecore81x\Facebook.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="FacebookAPI">
+          <HintPath>..\..\..\..\lib\sitecore81x\FacebookAPI.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Google.Apis.Authentication.OAuth2">
+          <HintPath>..\..\..\..\lib\sitecore81x\Google.Apis.Authentication.OAuth2.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Google.Apis">
+          <HintPath>..\..\..\..\lib\sitecore81x\Google.Apis.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Google.Apis.Plus.v1">
+          <HintPath>..\..\..\..\lib\sitecore81x\Google.Apis.Plus.v1.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Hammock.ClientProfile">
+          <HintPath>..\..\..\..\lib\sitecore81x\Hammock.ClientProfile.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="HedgehogDevelopment.SitecoreProject.PackageInstallPostProcessor">
+          <HintPath>..\..\..\..\lib\sitecore81x\HedgehogDevelopment.SitecoreProject.PackageInstallPostProcessor.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="HtmlAgilityPack">
+          <HintPath>..\..\..\..\lib\sitecore81x\HtmlAgilityPack.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Iesi.Collections">
+          <HintPath>..\..\..\..\lib\sitecore81x\Iesi.Collections.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="ITHit.WebDAV.Server">
+          <HintPath>..\..\..\..\lib\sitecore81x\ITHit.WebDAV.Server.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Lucene.Net.Contrib.Analyzers">
+          <HintPath>..\..\..\..\lib\sitecore81x\Lucene.Net.Contrib.Analyzers.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Lucene.Net.Contrib.Core">
+          <HintPath>..\..\..\..\lib\sitecore81x\Lucene.Net.Contrib.Core.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Lucene.Net.Contrib.FastVectorHighlighter">
+          <HintPath>..\..\..\..\lib\sitecore81x\Lucene.Net.Contrib.FastVectorHighlighter.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Lucene.Net.Contrib.Highlighter">
+          <HintPath>..\..\..\..\lib\sitecore81x\Lucene.Net.Contrib.Highlighter.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Lucene.Net.Contrib.Memory">
+          <HintPath>..\..\..\..\lib\sitecore81x\Lucene.Net.Contrib.Memory.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Lucene.Net.Contrib.Queries">
+          <HintPath>..\..\..\..\lib\sitecore81x\Lucene.Net.Contrib.Queries.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Lucene.Net.Contrib.Regex">
+          <HintPath>..\..\..\..\lib\sitecore81x\Lucene.Net.Contrib.Regex.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Lucene.Net.Contrib.SimpleFacetedSearch">
+          <HintPath>..\..\..\..\lib\sitecore81x\Lucene.Net.Contrib.SimpleFacetedSearch.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Lucene.Net.Contrib.Snowball">
+          <HintPath>..\..\..\..\lib\sitecore81x\Lucene.Net.Contrib.Snowball.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Lucene.Net.Contrib.SpellChecker">
+          <HintPath>..\..\..\..\lib\sitecore81x\Lucene.Net.Contrib.SpellChecker.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Lucene.Net">
+          <HintPath>..\..\..\..\lib\sitecore81x\Lucene.Net.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Microsoft.Web.Infrastructure">
+          <HintPath>..\..\..\..\lib\sitecore81x\Microsoft.Web.Infrastructure.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="MongoDB.Bson">
+          <HintPath>..\..\..\..\lib\sitecore81x\MongoDB.Bson.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="MongoDB.Driver">
+          <HintPath>..\..\..\..\lib\sitecore81x\MongoDB.Driver.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Mvp.Xml">
+          <HintPath>..\..\..\..\lib\sitecore81x\Mvp.Xml.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Netbiscuits.OnPremise">
+          <HintPath>..\..\..\..\lib\sitecore81x\Netbiscuits.OnPremise.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Newtonsoft.Json">
+          <HintPath>..\..\..\..\lib\sitecore81x\Newtonsoft.Json.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="OAuthLinkedIn">
+          <HintPath>..\..\..\..\lib\sitecore81x\OAuthLinkedIn.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="protobuf-net">
+          <HintPath>..\..\..\..\lib\sitecore81x\protobuf-net.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="RadEditor.Net2">
+          <HintPath>..\..\..\..\lib\sitecore81x\RadEditor.Net2.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Abstractions">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Abstractions.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Analytics.Aggregation">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Analytics.Aggregation.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Analytics.Automation.Aggregation">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Analytics.Automation.Aggregation.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Analytics.Automation">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Analytics.Automation.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Analytics.Automation.MongoDB">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Analytics.Automation.MongoDB.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Analytics.Core">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Analytics.Core.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Analytics.DataAccess">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Analytics.DataAccess.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Analytics">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Analytics.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Analytics.Model">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Analytics.Model.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Analytics.MongoDB">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Analytics.MongoDB.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Analytics.OmniChannel">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Analytics.OmniChannel.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Analytics.Outcome">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Analytics.Outcome.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Analytics.Processing">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Analytics.Processing.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Analytics.RobotDetection">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Analytics.RobotDetection.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Analytics.Sql">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Analytics.Sql.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Apps.Loader">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Apps.Loader.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Apps.TagInjection">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Apps.TagInjection.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Buckets.Client">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Buckets.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Buckets">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Buckets.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.CES.DeviceDetection">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.CES.DeviceDetection.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.CES.DeviceDetection.Rules">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.CES.DeviceDetection.Rules.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.CES">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.CES.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.CES.GeoIp">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.CES.GeoIp.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.CES.GeoIp.LegacyLocation">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.CES.GeoIp.LegacyLocation.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Cintel.Client">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Cintel.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Cintel">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Cintel.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Client">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <!--<Reference Include="Sitecore.Client.LicenseOptions"><HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Client.LicenseOptions.dll</HintPath><Private>True</Private><SpecificVersion>False</SpecificVersion></Reference>-->
+        <Reference Include="Sitecore.Cloud.ContentSearch">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Cloud.ContentSearch.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Cloud.Nexus">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Cloud.Nexus.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Cloud.RestClient">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Cloud.RestClient.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Cloud.ServiceModel">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Cloud.ServiceModel.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Cloud.Xdb">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Cloud.Xdb.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ContentSearch.Analytics.Client">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.ContentSearch.Analytics.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ContentSearch.Analytics">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.ContentSearch.Analytics.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ContentSearch.Client">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.ContentSearch.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ContentSearch">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.ContentSearch.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ContentSearch.Linq">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.ContentSearch.Linq.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ContentSearch.Linq.Lucene">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.ContentSearch.Linq.Lucene.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ContentSearch.LuceneProvider">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.ContentSearch.LuceneProvider.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ContentTesting">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.ContentTesting.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ContentTesting.Intelligence">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.ContentTesting.Intelligence.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ContentTesting.Model">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.ContentTesting.Model.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ContentTesting.Mvc">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.ContentTesting.Mvc.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ControlPanel">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.ControlPanel.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ExperienceAnalytics.Client">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.ExperienceAnalytics.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ExperienceAnalytics">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.ExperienceAnalytics.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ExperienceEditor">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.ExperienceEditor.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ExperienceEditor.Speak">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.ExperienceEditor.Speak.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ExperienceEditor.Speak.Ribbon">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.ExperienceEditor.Speak.Ribbon.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ExperienceExplorer.Business">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.ExperienceExplorer.Business.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ExperienceExplorer.Web">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.ExperienceExplorer.Web.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.FXM.Client">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.FXM.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.FXM">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.FXM.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.FXM.Service">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.FXM.Service.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.FXM.Speak">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.FXM.Speak.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ItemWebApi">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.ItemWebApi.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Kernel">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Kernel.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.LaunchPad">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.LaunchPad.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ListManagement.Analytics">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.ListManagement.Analytics.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ListManagement.Client">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.ListManagement.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ListManagement.ContentSearch">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.ListManagement.ContentSearch.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ListManagement">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.ListManagement.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ListManagement.Services">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.ListManagement.Services.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Logging.Client">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Logging.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Logging">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Logging.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Marketing.Campaigns.Client">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Marketing.Campaigns.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Marketing.Campaigns.Services">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Marketing.Campaigns.Services.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Marketing.Client">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Marketing.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Marketing.Core">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Marketing.Core.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Marketing.Definitions.MarketingAssets.Repositories">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Marketing.Definitions.MarketingAssets.Repositories.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Marketing">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Marketing.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Marketing.Search">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Marketing.Search.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Marketing.Taxonomy">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Marketing.Taxonomy.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Mvc.Analytics">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Mvc.Analytics.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Mvc.DeviceSimulator">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Mvc.DeviceSimulator.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Mvc">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Mvc.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Mvc.ExperienceEditor">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Mvc.ExperienceEditor.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="sitecore.nexus">
+          <HintPath>..\..\..\..\lib\sitecore81x\sitecore.nexus.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.NVelocity">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.NVelocity.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Oracle">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Oracle.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.PathAnalyzer.Client">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.PathAnalyzer.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.PathAnalyzer">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.PathAnalyzer.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.PathAnalyzer.Services">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.PathAnalyzer.Services.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Publishing.WebDeploy">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Publishing.WebDeploy.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Security.AntiCsrf">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Security.AntiCsrf.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.SegmentBuilder">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.SegmentBuilder.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.SequenceAnalyzer">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.SequenceAnalyzer.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Services.Client">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Services.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Services.Core">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Services.Core.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Services.Infrastructure">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Services.Infrastructure.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Services.Infrastructure.Sitecore">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Services.Infrastructure.Sitecore.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.SessionProvider">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.SessionProvider.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.SessionProvider.Memory">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.SessionProvider.Memory.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.SessionProvider.MongoDB">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.SessionProvider.MongoDB.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.SessionProvider.Sql">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.SessionProvider.Sql.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Shell.MarketingAutomation">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Shell.MarketingAutomation.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Api">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.Api.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Client.Api">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.Client.Api.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Client.Common">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.Client.Common.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Client">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Client.Domain">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.Client.Domain.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Client.Mvc">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.Client.Mvc.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Client.Speak">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.Client.Speak.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Configuration">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.Configuration.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Domain">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.Domain.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.ExperienceProfile.Client">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.ExperienceProfile.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Facebook.Api">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.Facebook.Api.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Facebook.Client">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.Facebook.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Facebook.Client.Mvc">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.Facebook.Client.Mvc.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Facebook">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.Facebook.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.GooglePlus.Client">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.GooglePlus.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.GooglePlus.Client.Mvc">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.GooglePlus.Client.Mvc.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.GooglePlus">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.GooglePlus.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Infrastructure">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.Infrastructure.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Infrastructure.Logging">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.Infrastructure.Logging.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Installation">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.Installation.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Klout.Api">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.Klout.Api.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Klout.Client">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.Klout.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.LinkedIn.Client">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.LinkedIn.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.LinkedIn.Client.Mvc">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.LinkedIn.Client.Mvc.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.LinkedIn">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.LinkedIn.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.NetworkProviders">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.NetworkProviders.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.SitecoreAccess">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.SitecoreAccess.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.SocialMarketer.Api">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.SocialMarketer.Api.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.SocialMarketer.Client">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.SocialMarketer.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.SocialMarketer">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.SocialMarketer.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Twitter.Api">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.Twitter.Api.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Twitter.Client">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.Twitter.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Twitter.Client.Mvc">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.Twitter.Client.Mvc.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Twitter">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Social.Twitter.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Speak.Applications">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Speak.Applications.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Speak.Charting">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Speak.Charting.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Speak.Client">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Speak.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Speak.Components">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Speak.Components.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Speak.Components.Guidance">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Speak.Components.Guidance.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Speak.Components.Web">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Speak.Components.Web.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Speak.ItemWebApi">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Speak.ItemWebApi.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Speak.Mvc">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Speak.Mvc.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Speak.Web">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Speak.Web.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Update">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Update.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Web">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Web.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Xdb.Configuration">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Xdb.Configuration.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Zip">
+          <HintPath>..\..\..\..\lib\sitecore81x\Sitecore.Zip.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Stimulsoft.Base">
+          <HintPath>..\..\..\..\lib\sitecore81x\Stimulsoft.Base.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Stimulsoft.Database">
+          <HintPath>..\..\..\..\lib\sitecore81x\Stimulsoft.Database.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Stimulsoft.Report">
+          <HintPath>..\..\..\..\lib\sitecore81x\Stimulsoft.Report.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Stimulsoft.Report.Web">
+          <HintPath>..\..\..\..\lib\sitecore81x\Stimulsoft.Report.Web.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Stimulsoft.Report.WebDesign">
+          <HintPath>..\..\..\..\lib\sitecore81x\Stimulsoft.Report.WebDesign.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.Net.Http">
+          <HintPath>..\..\..\..\lib\sitecore81x\System.Net.Http.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.Net.Http.Formatting">
+          <HintPath>..\..\..\..\lib\sitecore81x\System.Net.Http.Formatting.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.Net.Http.WebRequest">
+          <HintPath>..\..\..\..\lib\sitecore81x\System.Net.Http.WebRequest.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.Web.Cors">
+          <HintPath>..\..\..\..\lib\sitecore81x\System.Web.Cors.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.Web.Helpers">
+          <HintPath>..\..\..\..\lib\sitecore81x\System.Web.Helpers.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.Web.Http.Cors">
+          <HintPath>..\..\..\..\lib\sitecore81x\System.Web.Http.Cors.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.Web.Http">
+          <HintPath>..\..\..\..\lib\sitecore81x\System.Web.Http.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.Web.Http.WebHost">
+          <HintPath>..\..\..\..\lib\sitecore81x\System.Web.Http.WebHost.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.Web.Mvc">
+          <HintPath>..\..\..\..\lib\sitecore81x\System.Web.Mvc.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.Web.Optimization">
+          <HintPath>..\..\..\..\lib\sitecore81x\System.Web.Optimization.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.Web.Razor">
+          <HintPath>..\..\..\..\lib\sitecore81x\System.Web.Razor.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.Web.WebPages.Deployment">
+          <HintPath>..\..\..\..\lib\sitecore81x\System.Web.WebPages.Deployment.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.Web.WebPages">
+          <HintPath>..\..\..\..\lib\sitecore81x\System.Web.WebPages.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.Web.WebPages.Razor">
+          <HintPath>..\..\..\..\lib\sitecore81x\System.Web.WebPages.Razor.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Telerik.Web.UI">
+          <HintPath>..\..\..\..\lib\sitecore81x\Telerik.Web.UI.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Telerik.Web.UI.Skins">
+          <HintPath>..\..\..\..\lib\sitecore81x\Telerik.Web.UI.Skins.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="TweetSharp">
+          <HintPath>..\..\..\..\lib\sitecore81x\TweetSharp.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="WebGrease">
+          <HintPath>..\..\..\..\lib\sitecore81x\WebGrease.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Yahoo.Yui.Compressor">
+          <HintPath>..\..\..\..\lib\sitecore81x\Yahoo.Yui.Compressor.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+      </ItemGroup>
+
+    </When>
+    <When Condition="$(Configuration.EndsWith('82x'))">
+      <ItemGroup>
+
+
+        <!-- Sitecore 8.2 References -->
+        <Reference Include="Antlr3.Runtime">
+          <HintPath>..\..\..\..\lib\sitecore82x\Antlr3.Runtime.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="ComponentArt.Web.UI">
+          <HintPath>..\..\..\..\lib\sitecore82x\ComponentArt.Web.UI.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="DotNetOpenAuth">
+          <HintPath>..\..\..\..\lib\sitecore82x\DotNetOpenAuth.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="EcmaScript.NET">
+          <HintPath>..\..\..\..\lib\sitecore82x\EcmaScript.NET.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Facebook">
+          <HintPath>..\..\..\..\lib\sitecore82x\Facebook.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="FacebookAPI">
+          <HintPath>..\..\..\..\lib\sitecore82x\FacebookAPI.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Google.Apis.Authentication.OAuth2">
+          <HintPath>..\..\..\..\lib\sitecore82x\Google.Apis.Authentication.OAuth2.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Google.Apis">
+          <HintPath>..\..\..\..\lib\sitecore82x\Google.Apis.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Google.Apis.Plus.v1">
+          <HintPath>..\..\..\..\lib\sitecore82x\Google.Apis.Plus.v1.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Hammock.ClientProfile">
+          <HintPath>..\..\..\..\lib\sitecore82x\Hammock.ClientProfile.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="HtmlAgilityPack">
+          <HintPath>..\..\..\..\lib\sitecore82x\HtmlAgilityPack.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="ICSharpCode.SharpZipLib">
+          <HintPath>..\..\..\..\lib\sitecore82x\ICSharpCode.SharpZipLib.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Iesi.Collections">
+          <HintPath>..\..\..\..\lib\sitecore82x\Iesi.Collections.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="ITHit.WebDAV.Server">
+          <HintPath>..\..\..\..\lib\sitecore82x\ITHit.WebDAV.Server.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Lucene.Net.Contrib.Analyzers">
+          <HintPath>..\..\..\..\lib\sitecore82x\Lucene.Net.Contrib.Analyzers.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Lucene.Net.Contrib.Core">
+          <HintPath>..\..\..\..\lib\sitecore82x\Lucene.Net.Contrib.Core.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Lucene.Net.Contrib.FastVectorHighlighter">
+          <HintPath>..\..\..\..\lib\sitecore82x\Lucene.Net.Contrib.FastVectorHighlighter.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Lucene.Net.Contrib.Highlighter">
+          <HintPath>..\..\..\..\lib\sitecore82x\Lucene.Net.Contrib.Highlighter.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Lucene.Net.Contrib.Memory">
+          <HintPath>..\..\..\..\lib\sitecore82x\Lucene.Net.Contrib.Memory.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Lucene.Net.Contrib.Queries">
+          <HintPath>..\..\..\..\lib\sitecore82x\Lucene.Net.Contrib.Queries.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Lucene.Net.Contrib.Regex">
+          <HintPath>..\..\..\..\lib\sitecore82x\Lucene.Net.Contrib.Regex.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Lucene.Net.Contrib.SimpleFacetedSearch">
+          <HintPath>..\..\..\..\lib\sitecore82x\Lucene.Net.Contrib.SimpleFacetedSearch.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Lucene.Net.Contrib.Snowball">
+          <HintPath>..\..\..\..\lib\sitecore82x\Lucene.Net.Contrib.Snowball.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Lucene.Net.Contrib.SpellChecker">
+          <HintPath>..\..\..\..\lib\sitecore82x\Lucene.Net.Contrib.SpellChecker.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Lucene.Net">
+          <HintPath>..\..\..\..\lib\sitecore82x\Lucene.Net.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="MarkdownSharp">
+          <HintPath>..\..\..\..\lib\sitecore82x\MarkdownSharp.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Microsoft.AspNet.WebApi.Extensions.Compression.Server">
+          <HintPath>..\..\..\..\lib\sitecore82x\Microsoft.AspNet.WebApi.Extensions.Compression.Server.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+          <HintPath>..\..\..\..\lib\sitecore82x\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Microsoft.Extensions.DependencyInjection">
+          <HintPath>..\..\..\..\lib\sitecore82x\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Microsoft.OData.Core">
+          <HintPath>..\..\..\..\lib\sitecore82x\Microsoft.OData.Core.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Microsoft.OData.Edm">
+          <HintPath>..\..\..\..\lib\sitecore82x\Microsoft.OData.Edm.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Microsoft.Practices.ServiceLocation">
+          <HintPath>..\..\..\..\lib\sitecore82x\Microsoft.Practices.ServiceLocation.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Microsoft.Spatial">
+          <HintPath>..\..\..\..\lib\sitecore82x\Microsoft.Spatial.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Microsoft.Web.Infrastructure">
+          <HintPath>..\..\..\..\lib\sitecore82x\Microsoft.Web.Infrastructure.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="MongoDB.Bson">
+          <HintPath>..\..\..\..\lib\sitecore82x\MongoDB.Bson.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="MongoDB.Driver">
+          <HintPath>..\..\..\..\lib\sitecore82x\MongoDB.Driver.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Mvp.Xml">
+          <HintPath>..\..\..\..\lib\sitecore82x\Mvp.Xml.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Netbiscuits.OnPremise">
+          <HintPath>..\..\..\..\lib\sitecore82x\Netbiscuits.OnPremise.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Newtonsoft.Json">
+          <HintPath>..\..\..\..\lib\sitecore82x\Newtonsoft.Json.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="OAuthLinkedIn">
+          <HintPath>..\..\..\..\lib\sitecore82x\OAuthLinkedIn.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="protobuf-net">
+          <HintPath>..\..\..\..\lib\sitecore82x\protobuf-net.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="RadEditor.Net2">
+          <HintPath>..\..\..\..\lib\sitecore82x\RadEditor.Net2.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="RazorGenerator.Mvc">
+          <HintPath>..\..\..\..\lib\sitecore82x\RazorGenerator.Mvc.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Abstractions">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Abstractions.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Analytics.Aggregation">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Analytics.Aggregation.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Analytics.Automation.Aggregation">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Analytics.Automation.Aggregation.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Analytics.Automation">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Analytics.Automation.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Analytics.Automation.MongoDB">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Analytics.Automation.MongoDB.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Analytics.Core">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Analytics.Core.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Analytics.DataAccess">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Analytics.DataAccess.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Analytics">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Analytics.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Analytics.Model">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Analytics.Model.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Analytics.MongoDB">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Analytics.MongoDB.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Analytics.OmniChannel">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Analytics.OmniChannel.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Analytics.Outcome">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Analytics.Outcome.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Analytics.Processing">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Analytics.Processing.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Analytics.RobotDetection">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Analytics.RobotDetection.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Analytics.Sql">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Analytics.Sql.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Apps.Loader">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Apps.Loader.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Buckets.Client">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Buckets.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Buckets">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Buckets.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.CES.DeviceDetection">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.CES.DeviceDetection.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.CES.DeviceDetection.Rules">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.CES.DeviceDetection.Rules.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.CES">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.CES.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.CES.GeoIp">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.CES.GeoIp.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.CES.GeoIp.LegacyLocation">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.CES.GeoIp.LegacyLocation.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Cintel.Client">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Cintel.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Cintel">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Cintel.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Client">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <!--<Reference Include="Sitecore.Client.LicenseOptions"><HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Client.LicenseOptions.dll</HintPath><Private>True</Private><SpecificVersion>False</SpecificVersion></Reference>-->
+        <Reference Include="Sitecore.Cloud.ContentSearch">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Cloud.ContentSearch.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Cloud.Nexus">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Cloud.Nexus.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Cloud.RestClient">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Cloud.RestClient.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Cloud.Xdb">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Cloud.Xdb.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Commerce">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Commerce.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Commerce.ExperienceAnalytics">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Commerce.ExperienceAnalytics.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Commerce.ExperienceProfile">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Commerce.ExperienceProfile.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ContentSearch.Analytics.Client">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ContentSearch.Analytics.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ContentSearch.Analytics">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ContentSearch.Analytics.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ContentSearch.Client">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ContentSearch.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ContentSearch">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ContentSearch.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ContentSearch.Linq">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ContentSearch.Linq.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ContentSearch.Linq.Lucene">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ContentSearch.Linq.Lucene.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ContentSearch.Linq.Solr">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ContentSearch.Linq.Solr.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ContentSearch.LuceneProvider">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ContentSearch.LuceneProvider.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ContentSearch.SolrProvider">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ContentSearch.SolrProvider.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ContentTesting">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ContentTesting.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ContentTesting.Intelligence">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ContentTesting.Intelligence.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ContentTesting.Model">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ContentTesting.Model.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ContentTesting.Mvc">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ContentTesting.Mvc.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ControlPanel">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ControlPanel.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ExperienceAnalytics.Aggregation">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ExperienceAnalytics.Aggregation.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ExperienceAnalytics.Api">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ExperienceAnalytics.Api.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ExperienceAnalytics.Client">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ExperienceAnalytics.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ExperienceAnalytics.Core">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ExperienceAnalytics.Core.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ExperienceAnalytics">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ExperienceAnalytics.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ExperienceAnalytics.ReAggregation">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ExperienceAnalytics.ReAggregation.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ExperienceAnalytics.Reduce">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ExperienceAnalytics.Reduce.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ExperienceContentManagement.Administration">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ExperienceContentManagement.Administration.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ExperienceEditor">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ExperienceEditor.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ExperienceEditor.Speak">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ExperienceEditor.Speak.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ExperienceEditor.Speak.Ribbon">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ExperienceEditor.Speak.Ribbon.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ExperienceExplorer.Business">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ExperienceExplorer.Business.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ExperienceExplorer.Web">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ExperienceExplorer.Web.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.FXM.Client">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.FXM.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.FXM">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.FXM.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.FXM.Service">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.FXM.Service.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.FXM.Speak">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.FXM.Speak.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ItemWebApi">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ItemWebApi.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Kernel">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Kernel.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.LaunchPad">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.LaunchPad.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ListManagement.Analytics">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ListManagement.Analytics.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ListManagement.Client">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ListManagement.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ListManagement.ContentSearch">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ListManagement.ContentSearch.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ListManagement">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ListManagement.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.ListManagement.Services">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.ListManagement.Services.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Logging.Client">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Logging.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Logging">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Logging.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Marketing.Campaigns.Client">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Marketing.Campaigns.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Marketing.Campaigns.Services">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Marketing.Campaigns.Services.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Marketing.Client">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Marketing.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Marketing.Core">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Marketing.Core.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Marketing.Definitions.MarketingAssets.Repositories">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Marketing.Definitions.MarketingAssets.Repositories.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Marketing">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Marketing.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Marketing.Search">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Marketing.Search.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Marketing.Taxonomy">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Marketing.Taxonomy.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Mvc.Analytics">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Mvc.Analytics.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Mvc.DeviceSimulator">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Mvc.DeviceSimulator.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Mvc">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Mvc.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Mvc.ExperienceEditor">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Mvc.ExperienceEditor.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Nexus">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Nexus.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.NVelocity">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.NVelocity.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Oracle">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Oracle.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.PathAnalyzer.Client">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.PathAnalyzer.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.PathAnalyzer">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.PathAnalyzer.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.PathAnalyzer.Services">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.PathAnalyzer.Services.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Publishing.WebDeploy">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Publishing.WebDeploy.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Security.AntiCsrf">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Security.AntiCsrf.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.SegmentBuilder">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.SegmentBuilder.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.SequenceAnalyzer">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.SequenceAnalyzer.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Services.Client">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Services.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Services.Core">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Services.Core.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Services.Infrastructure">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Services.Infrastructure.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Services.Infrastructure.Sitecore">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Services.Infrastructure.Sitecore.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.SessionProvider">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.SessionProvider.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.SessionProvider.Memory">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.SessionProvider.Memory.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.SessionProvider.MongoDB">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.SessionProvider.MongoDB.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.SessionProvider.Sql">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.SessionProvider.Sql.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Shell.MarketingAutomation">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Shell.MarketingAutomation.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Api">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.Api.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Client.Api">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.Client.Api.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Client.Common">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.Client.Common.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Client">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Client.Domain">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.Client.Domain.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Client.Mvc">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.Client.Mvc.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Client.Speak">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.Client.Speak.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Configuration">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.Configuration.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Domain">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.Domain.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.ExperienceProfile.Client">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.ExperienceProfile.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Facebook.Api">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.Facebook.Api.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Facebook.Client">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.Facebook.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Facebook.Client.Mvc">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.Facebook.Client.Mvc.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Facebook">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.Facebook.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.GooglePlus.Client">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.GooglePlus.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.GooglePlus.Client.Mvc">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.GooglePlus.Client.Mvc.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.GooglePlus">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.GooglePlus.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Infrastructure">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.Infrastructure.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Infrastructure.Logging">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.Infrastructure.Logging.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Installation">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.Installation.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Klout.Api">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.Klout.Api.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Klout.Client">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.Klout.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.LinkedIn.Client">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.LinkedIn.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.LinkedIn.Client.Mvc">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.LinkedIn.Client.Mvc.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.LinkedIn">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.LinkedIn.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.NetworkProviders">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.NetworkProviders.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.SitecoreAccess">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.SitecoreAccess.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.SocialMarketer.Api">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.SocialMarketer.Api.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.SocialMarketer.Client">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.SocialMarketer.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.SocialMarketer">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.SocialMarketer.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Twitter.Api">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.Twitter.Api.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Twitter.Client">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.Twitter.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Twitter.Client.Mvc">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.Twitter.Client.Mvc.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Social.Twitter">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Social.Twitter.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Speak.Applications">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Speak.Applications.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Speak.Client">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Speak.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Speak.Components">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Speak.Components.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Speak.Components.Guidance">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Speak.Components.Guidance.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Speak.Components.Web">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Speak.Components.Web.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Speak.ItemWebApi">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Speak.ItemWebApi.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Speak.Web">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Speak.Web.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Update">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Update.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Web">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Web.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Xdb.Client">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Xdb.Client.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Xdb.Configuration">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Xdb.Configuration.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Sitecore.Zip">
+          <HintPath>..\..\..\..\lib\sitecore82x\Sitecore.Zip.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="SolrNet">
+          <HintPath>..\..\..\..\lib\sitecore82x\SolrNet.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Stimulsoft.Base">
+          <HintPath>..\..\..\..\lib\sitecore82x\Stimulsoft.Base.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Stimulsoft.Database">
+          <HintPath>..\..\..\..\lib\sitecore82x\Stimulsoft.Database.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Stimulsoft.Report">
+          <HintPath>..\..\..\..\lib\sitecore82x\Stimulsoft.Report.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Stimulsoft.Report.Web">
+          <HintPath>..\..\..\..\lib\sitecore82x\Stimulsoft.Report.Web.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Stimulsoft.Report.WebDesign">
+          <HintPath>..\..\..\..\lib\sitecore82x\Stimulsoft.Report.WebDesign.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.IdentityModel.Tokens.Jwt">
+          <HintPath>..\..\..\..\lib\sitecore82x\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.Net.Http.Extensions.Compression.Core">
+          <HintPath>..\..\..\..\lib\sitecore82x\System.Net.Http.Extensions.Compression.Core.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.Net.Http.Formatting">
+          <HintPath>..\..\..\..\lib\sitecore82x\System.Net.Http.Formatting.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.Web.Cors">
+          <HintPath>..\..\..\..\lib\sitecore82x\System.Web.Cors.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.Web.Helpers">
+          <HintPath>..\..\..\..\lib\sitecore82x\System.Web.Helpers.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.Web.Http.Cors">
+          <HintPath>..\..\..\..\lib\sitecore82x\System.Web.Http.Cors.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.Web.Http">
+          <HintPath>..\..\..\..\lib\sitecore82x\System.Web.Http.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.Web.Http.WebHost">
+          <HintPath>..\..\..\..\lib\sitecore82x\System.Web.Http.WebHost.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.Web.Mvc">
+          <HintPath>..\..\..\..\lib\sitecore82x\System.Web.Mvc.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.Web.OData">
+          <HintPath>..\..\..\..\lib\sitecore82x\System.Web.OData.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.Web.Optimization">
+          <HintPath>..\..\..\..\lib\sitecore82x\System.Web.Optimization.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.Web.Razor">
+          <HintPath>..\..\..\..\lib\sitecore82x\System.Web.Razor.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.Web.WebPages.Deployment">
+          <HintPath>..\..\..\..\lib\sitecore82x\System.Web.WebPages.Deployment.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.Web.WebPages">
+          <HintPath>..\..\..\..\lib\sitecore82x\System.Web.WebPages.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="System.Web.WebPages.Razor">
+          <HintPath>..\..\..\..\lib\sitecore82x\System.Web.WebPages.Razor.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Telerik.Web.UI">
+          <HintPath>..\..\..\..\lib\sitecore82x\Telerik.Web.UI.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Telerik.Web.UI.Skins">
+          <HintPath>..\..\..\..\lib\sitecore82x\Telerik.Web.UI.Skins.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="TweetSharp">
+          <HintPath>..\..\..\..\lib\sitecore82x\TweetSharp.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="WebActivatorEx">
+          <HintPath>..\..\..\..\lib\sitecore82x\WebActivatorEx.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="WebGrease">
+          <HintPath>..\..\..\..\lib\sitecore82x\WebGrease.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+        <Reference Include="Yahoo.Yui.Compressor">
+          <HintPath>..\..\..\..\lib\sitecore82x\Yahoo.Yui.Compressor.dll</HintPath>
+          <Private>True</Private>
+          <SpecificVersion>False</SpecificVersion>
+        </Reference>
+
+      </ItemGroup>
+
+    </When>
+  </Choose>
+</Project>

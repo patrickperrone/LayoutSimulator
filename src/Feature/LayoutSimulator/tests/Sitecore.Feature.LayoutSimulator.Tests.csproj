@@ -151,12 +151,12 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\..\..\..\packages\xunit.runner.visualstudio.2.1.0\build\net20\xunit.runner.visualstudio.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\packages\xunit.runner.visualstudio.2.1.0\build\net20\xunit.runner.visualstudio.props'))" />
   </Target>
-  <Import Project="..\..\..\..\lib\sitecore.targets" Condition="Exists('..\..\..\..\lib\sitecore.targets')" />
+  <Import Project="..\..\..\..\lib\sitecore.CopyLocal.targets" Condition="Exists('..\..\..\..\lib\sitecore.CopyLocal.targets')" />
   <Target Name="EnsureSitecoreAssemblies" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references Sitecore assemblies that are missing on this computer. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\..\..\..\lib\sitecore.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\lib\sitecore.targets'))" />
+    <Error Condition="!Exists('..\..\..\..\lib\sitecore.CopyLocal.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\lib\sitecore.CopyLocal.targets'))" />
   </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
