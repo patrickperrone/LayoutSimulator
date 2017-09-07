@@ -35,8 +35,7 @@ two routes that use may use.
 <br />
 <br />
 ##### Simulate a Layout
-Issue a POST request to ```/services/layoutsimulator/simulate``` and pass it a JSON object. You may optionally use
-a query string parameter to override the default simulation host page: ```/services/layoutsimulator/simulate?hostPageUrl=http://simtest/testhost```
+Issue a POST request to ```/sitecore/api/ssc/LayoutSimulator/Simulator/1/Simulate``` and pass it a JSON object. You may optionally supply a HostPageUrl value in the JSON object to override the default simulation host page.
 
 Example:
 ```
@@ -47,6 +46,7 @@ Content-Type: application/json
 Cache-Control: no-cache
 
 {
+    "HostPageUrl" : "",
     "LayoutToSimulate" : "<r xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">
 <d id=\"{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}\" l=\"{03547A29-7056-4278-94A3-3EB5BE765660}\">
 <r id=\"{C35D86EE-3DF1-48D0-84C0-2385DEF0C909}\" ph=\"main\" uid=\"{D38C8F63-5305-4167-9C13-B32093FA7232}\" />
@@ -55,7 +55,7 @@ Cache-Control: no-cache
 ```
 <br />
 ##### Test If Layout Simulator Is Installed
-Issue a GET request to ```/services/layoutsimulator/simulate```
+Issue a GET request to ```/sitecore/api/ssc/LayoutSimulator/Simulator/1/Simulate```
 
 ### Advanced Usage
 Layout Simulator installs two basic page types and registers them as defaults:
