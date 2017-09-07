@@ -1,12 +1,12 @@
 module.exports = function () {
-	var instanceRoot = "C:\\inetpub\\SIM\\lsim-sc81u3";
+	var instanceRoot = "C:\\inetpub\\SIM\\lsim-sc82u4";
 	var config = {
 		websiteRoot: instanceRoot + "\\Website",
 		sitecoreLibraries: instanceRoot + "\\Website\\bin",
-		sitecoreLibDestination: "./lib/Sitecore81x",
+		sitecoreLibDestination: "./lib/Sitecore82x",
 		licensePath: instanceRoot + "\\Data\\license.xml",
 		solutionName: "Layout Simulator",
-		buildConfiguration: "Debug81x",
+		buildConfiguration: "Debug82x",
 		buildToolsVersion: 15.0,
 		buildMaxCpuCount: 0,
 		buildVerbosity: "minimal",
