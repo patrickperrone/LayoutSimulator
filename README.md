@@ -2,7 +2,7 @@
 In a nutshell: this module will help you reduce the footprint of test data you must maintain in Sitecore.
 
 As Sitecore developers we must often develop layouts and renderings. If we wish to test these components 
-from a browser we must create a page in sitecore that consumes our component(s). Over time this test data
+from a browser we must create a page in Sitecore that consumes our component(s). Over time this test data
 can accrue into a large library that must be managed and shared amongst different test environments like DEV and QA.
 
 Using Layout Simulator lets you save your test data -- Sitecore's layout definitions in raw xml -- as a text file 
