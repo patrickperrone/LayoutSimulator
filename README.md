@@ -54,8 +54,11 @@ Cache-Control: no-cache
 }
 ```
 <br />
+
+
 ##### Test If Layout Simulator Is Installed
-Issue a GET request to ```/sitecore/api/ssc/LayoutSimulator/Simulator/1/Simulate```
+Issue a GET request to ```/sitecore/api/ssc/LayoutSimulator/Simulator/1/About```
+
 
 ### Advanced Usage
 Layout Simulator installs two basic page types and registers them as defaults:
