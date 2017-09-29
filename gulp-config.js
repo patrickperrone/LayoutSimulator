@@ -1,5 +1,5 @@
 module.exports = function () {
-	var instanceRoot = "C:\\inetpub\\SIM\\lsim-sc82u4";
+	var instanceRoot = "C:\\inetpub\\SIM\\lsim";
 	var config = {
 		websiteRoot: instanceRoot + "\\Website",
 		sitecoreLibraries: instanceRoot + "\\Website\\bin",
