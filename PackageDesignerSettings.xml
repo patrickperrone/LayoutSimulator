@@ -3,7 +3,7 @@
     <metadata>
       <PackageName>LayoutSimulator (8.2)</PackageName>
       <Author>Patrick Perrone</Author>
-      <Version>1.1.2</Version>
+      <Version>1.1.3</Version>
       <Revision />
       <License />
       <Comment />
@@ -36,7 +36,7 @@
             <InstallerConfigurationTransform>
               <Options>
                 <BehaviourOptions>
-                  <ItemMode>Undefined</ItemMode>
+                  <ItemMode>Overwrite</ItemMode>
                   <ItemMergeMode>Undefined</ItemMergeMode>
                 </BehaviourOptions>
               </Options>
@@ -79,8 +79,8 @@
             <InstallerConfigurationTransform>
               <Options>
                 <BehaviourOptions>
-                  <ItemMode>Undefined</ItemMode>
-                  <ItemMergeMode>Undefined</ItemMergeMode>
+                  <ItemMode>Overwrite</ItemMode>
+                  <ItemMergeMode>Clear</ItemMergeMode>
                 </BehaviourOptions>
               </Options>
             </InstallerConfigurationTransform>
@@ -100,7 +100,16 @@
       <SkipVersions>False</SkipVersions>
       <Converter>
         <ItemToEntryConverter>
-          <Transforms />
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Overwrite</ItemMode>
+                  <ItemMergeMode>Clear</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
         </ItemToEntryConverter>
       </Converter>
       <Include />
