@@ -1,0 +1,123 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>LayoutSimulator (8.2)</PackageName>
+      <Author>Patrick Perrone</Author>
+      <Version>1.1.1</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher />
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Include/Feature/Feature.LayoutSimulator.config</x-item>
+        <x-item>/Assets/LayoutSimulator/double-rainbow.jpg</x-item>
+        <x-item>/Assets/LayoutSimulator/simulator.css</x-item>
+        <x-item>/Assets/LayoutSimulator/spinner.gif</x-item>
+        <x-item>/bin/Sitecore.Feature.LayoutSimulator.dll</x-item>
+        <x-item>/Views/LayoutSimulator/BlankLayout.cshtml</x-item>
+        <x-item>/Views/LayoutSimulator/Demo.cshtml</x-item>
+        <x-item>/Views/LayoutSimulator/NoSimulationMessage.cshtml</x-item>
+        <x-item>/Views/LayoutSimulator/PostToService.cshtml</x-item>
+        <x-item>/Views/LayoutSimulator/SubmitLayoutXml.cshtml</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>files</Name>
+    </xfiles>
+    <xitems>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Entries>
+        <x-item>/master/sitecore/content/SimulationBuilder/{EC8094D1-D713-48EE-B942-1EEEEB164A30}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/SimulationHost/{8AD0074A-B0A6-4E52-AF4F-640F917B4767}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Layouts/Feature/{470A0483-80DC-4425-93B9-9C79C7C57A11}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Layouts/Feature/LayoutSimulator/{392BEAA7-9DE5-44BB-BED2-5FE40826CFA0}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Layouts/Feature/LayoutSimulator/BlankLayout/{03547A29-7056-4278-94A3-3EB5BE765660}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/{DA61AD50-8FDB-4252-A68F-B4470B1C9FE8}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/LayoutSimulator/{86ED6281-5194-48D0-8839-BA8F4546648B}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/LayoutSimulator/Builder/{99E74F5B-BC8E-439C-8E74-A67D554EFDD3}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/LayoutSimulator/Demo/{C35D86EE-3DF1-48D0-84C0-2385DEF0C909}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/LayoutSimulator/NoSimulationMessage/{484DDF91-FCF6-47DB-B96F-8D6B1B8B667B}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Feature/{256655EC-8F3A-45B5-AD90-B63BC25B8067}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Feature/LayoutSimulator/{7E7A362C-2F8E-4E9C-AB62-2532A9473ECE}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Feature/LayoutSimulator/Settings/{91CC8A3D-2515-4333-9208-76DDDD34B232}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/{8F343079-3CC5-4EF7-BC27-32ADDB46F45E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/LayoutSimulator/{291D5522-7C1B-4609-847B-3AD22C2CA8C9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/LayoutSimulator/Content Types/{42B7F91C-3E12-4ADD-9B56-443CB4294892}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/LayoutSimulator/Content Types/Simulator Settings/{977DD4AB-A93B-4164-9253-0C15D56E6E3C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/LayoutSimulator/Content Types/Simulator Settings/Data/{0D71E13A-AF7C-40A0-96BD-AE3077AC75B9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/LayoutSimulator/Content Types/Simulator Settings/Data/Default Layout Builder Page/{CEA877AA-9E37-438A-AD21-6C2305F2062F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/LayoutSimulator/Content Types/Simulator Settings/Data/Default Simulation Host Page/{B85A5E8A-AC96-4BA3-93F1-34A4A3D50AF8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/LayoutSimulator/Page Types/{D1162419-91AA-41D4-ACD5-70C61C10E795}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/LayoutSimulator/Page Types/Simulation Builder Page/__Standard Values/{FEE1ED76-93C2-45B1-A071-FE24BFA4EC0C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/LayoutSimulator/Page Types/Simulation Builder Page/{13224246-40DD-4563-8386-F2F04426F760}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/LayoutSimulator/Page Types/Simulation Host Page/__Standard Values/{8E229641-AB86-44E0-B0AA-163D2431B8D2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/LayoutSimulator/Page Types/Simulation Host Page/{B3E0E945-BC46-4F59-B397-A97ABB5A683F}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Include />
+      <Exclude />
+      <Name>master items</Name>
+    </xitems>
+    <xitems>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Entries>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Ribbons/Chunks/Layout Simulator/{58AB2F79-BA00-4006-8DF8-0A10F1207C0D}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Ribbons/Chunks/Layout Simulator/Get Layout/{9FCD821C-D18C-4BFD-BE7B-5D7758D397C9}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Ribbons/Strips/Presentation/Layout Simulator/{BE5F70E5-EB75-42E8-991A-E74F957A2521}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Include />
+      <Exclude />
+      <Name>core items</Name>
+    </xitems>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
