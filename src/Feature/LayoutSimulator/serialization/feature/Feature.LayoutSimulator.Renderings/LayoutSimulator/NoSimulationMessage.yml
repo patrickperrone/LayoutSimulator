@@ -2,7 +2,7 @@
 ID: "484ddf91-fcf6-47db-b96f-8d6b1b8b667b"
 Parent: "86ed6281-5194-48d0-8839-ba8f4546648b"
 Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
-Path: /sitecore/layout/Renderings/Feature/LayoutSimulator/NoSimulationMessage
+Path: /sitecore/layout/Renderings/LayoutSimulator/NoSimulationMessage
 DB: master
 SharedFields:
 - ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"

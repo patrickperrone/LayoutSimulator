@@ -1,8 +1,8 @@
 ﻿---
 ID: "86ed6281-5194-48d0-8839-ba8f4546648b"
-Parent: "da61ad50-8fdb-4252-a68f-b4470b1c9fe8"
+Parent: "32566f0e-7686-45f1-a12f-d7260bd78bc3"
 Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
-Path: /sitecore/layout/Renderings/Feature/LayoutSimulator
+Path: /sitecore/layout/Renderings/LayoutSimulator
 DB: master
 Languages:
 - Language: en

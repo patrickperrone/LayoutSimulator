@@ -1,8 +1,8 @@
 ﻿---
 ID: "291d5522-7c1b-4609-847b-3ad22c2ca8c9"
-Parent: "8f343079-3cc5-4ef7-bc27-32addb46f45e"
+Parent: "3c1715fe-6a13-4fcf-845f-de308ba9741d"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: /sitecore/templates/Feature/LayoutSimulator
+Path: /sitecore/templates/LayoutSimulator
 DB: master
 Languages:
 - Language: en
@@ -14,4 +14,5 @@ Languages:
       Value: 20160315T155357Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
-      Value: sitecore\admin
+      Value: |
+        sitecore\admin

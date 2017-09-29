@@ -2,7 +2,7 @@
 ID: "977dd4ab-a93b-4164-9253-0c15d56e6e3c"
 Parent: "42b7f91c-3e12-4add-9b56-443cb4294892"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/LayoutSimulator/Content Types/Simulator Settings
+Path: /sitecore/templates/LayoutSimulator/Content Types/Simulator Settings
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
@@ -22,4 +22,5 @@ Languages:
       Value: 20160315T163953Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
-      Value: sitecore\admin
+      Value: |
+        sitecore\admin

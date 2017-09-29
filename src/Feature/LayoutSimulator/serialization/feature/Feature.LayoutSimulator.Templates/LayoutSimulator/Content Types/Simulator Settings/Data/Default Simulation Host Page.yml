@@ -2,7 +2,7 @@
 ID: "b85a5e8a-ac96-4ba3-93f1-34a4a3d50af8"
 Parent: "0d71e13a-af7c-40a0-96bd-ae3077ac75b9"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/LayoutSimulator/Content Types/Simulator Settings/Data/Default Simulation Host Page
+Path: /sitecore/templates/LayoutSimulator/Content Types/Simulator Settings/Data/Default Simulation Host Page
 DB: master
 SharedFields:
 - ID: "337e20e1-999a-4eea-85ad-b58a03ae75cc"

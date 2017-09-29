@@ -2,7 +2,7 @@
 ID: "91cc8a3d-2515-4333-9208-76dddd34b232"
 Parent: "7e7a362c-2f8e-4e9c-ab62-2532a9473ece"
 Template: "977dd4ab-a93b-4164-9253-0c15d56e6e3c"
-Path: /sitecore/system/Settings/Feature/LayoutSimulator/Settings
+Path: /sitecore/system/Modules/LayoutSimulator/Settings
 DB: master
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
@@ -18,7 +18,8 @@ Languages:
       Value: 20160315T170146Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
-      Value: sitecore\admin
+      Value: |
+        sitecore\admin
     - ID: "b85a5e8a-ac96-4ba3-93f1-34a4a3d50af8"
       Hint: Default Simulation Host Page
       Value: "{8AD0074A-B0A6-4E52-AF4F-640F917B4767}"
